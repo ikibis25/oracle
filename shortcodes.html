@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<!--
+**********************************************************************************************************
+    Copyright (c) 2017 xtremedesign
+********************************************************************************************************** -->
+
+<!-- 
+Template Name: Oracle - news and magazine HTML template
+Version: 1.0
+-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<!-- Header Start -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- favicon links -->
+<link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+<link rel="icon" type="image/ico" href="favicon.ico" />
+<!-- main css -->
+<link rel="stylesheet" href="css/main.css" media="screen"/>
+<!-- color and background option -->
+<link rel="stylesheet" id="theme-color" type="text/css" href="#"/>
+<link rel="stylesheet" id="theme-pattern" type="text/css" href="#"/>
+<title>Oracle - news and magazine HTML template</title>
+</head>
+<!-- Header End -->
+
+<!-- Body Start -->
+<body>
+<!--Pre loader start--> 
+<div id="preloader">
+  <div id="status"><img src="images/preloader.gif" id="preloader_image" width="50" height="50" alt="loading image"/></div>
+</div>
+<!--pre loader end-->
+<!-- color picker start -->
+<div id="style-switcher" class="hs_color_set">
+  <div>
+    <h3>color options</h3>
+    <ul class="colors">
+      <li>
+        <p class='colorchange' id='color1'></p>
+      </li>
+      <li>
+        <p class='colorchange' id='color2'></p>
+      </li>
+      <li>
+        <p class='colorchange' id='color3'></p>
+      </li>
+      <li>
+        <p class='colorchange' id='color4'></p>
+      </li>
+      <li>
+        <p class='colorchange' id='color5'></p>
+      </li>
+      <li>
+        <p class='colorchange' id='style'></p>
+      </li>
+    </ul>
+    <h3>Background Pattern</h3>
+    <ul class="pattern">
+      <li>
+        <p class="pattern_change" id="pattern"></p>
+      </li>
+      <li>
+        <p class="pattern_change" id="pattern1"></p>
+      </li>
+      <li>
+        <p class="pattern_change" id="pattern2"></p>
+      </li>
+      <li>
+        <p class="pattern_change" id="pattern3"></p>
+      </li>
+      <li>
+        <p class="pattern_change" id="pattern4"></p>
+      </li>
+    </ul>
+    <h3>Theme Option</h3>
+    <select class="rock_themeoption" onchange="location = this.options[this.selectedIndex].value;">
+      <option>Select Option</option>
+      <option value="index-full-width.html">Full Width</option>
+      <option value="index.html">Boxed</option>
+    </select>
+  </div>
+  <div class="bottom"> <a href="" class="settings"><i class="fa fa-cogs"> Theme Option</i></a></div>
+</div>
+<!-- color picker end --> 
+<!--Header start-->
+<header id="oracle_header">
+  <div class="oracle_top_menu">
+    <div class="container">
+      <div class="row">
+        <nav class="navbar navbar-default" role="navigation"> 
+          
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          </div>
+          
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <span class="caret"></span></a>
+                <ul class="sub-menu" role="menu">
+                  <li><a href="index2.html">Home - Both Sidebar</a></li>
+                  <li><a href="index-full-width.html">Home - Full Width</a></li>
+                </ul>
+              </li>
+              <li><a href="post.html">Post</a></li>
+              <li><a href="shortcodes.html">Shortcodes</a></li>
+              <li><a href="photo-gallery.html">Photo Gallery</a></li>
+              <li><a href="404-error.html">Error 404</a></li>
+              <li><a href="archive.html">Archive</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Welcome, Jhon Deo </a></li>
+              <li class="oracle_avatar"><a href="author-page.html"><img src="images/profileimage.jpg" class="img-thumbnail" alt=""/></a></li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse --> 
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-15">
+        <h1 class="logo" title="Home"> <a href="index.html"> <img alt="Porto" data-sticky-width="82" data-sticky-height="40" src="images/logo.png"> </a> </h1>
+        <div class="oracle_weather">
+          <div>
+            <h4>Weather Report</h4>
+            <p class="location">Dewas, India</p>
+            <p class="temprature">+35°C, Partly Cloudy,</p>
+            <p>nearby</p>
+          </div>
+          <div> <span><img src="images/icon/weather-clouds.png" alt=""/></span> </div>
+        </div>
+        <button class="oracle_menu_toggle btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse"><i class="fa fa-bars"></i> </button>
+        <div class="oracle_menu navbar-collapse nav-main-collapse collapse">
+          <div class="text-center">
+            <nav class="nav-main mega-menu">
+              <ul class="nav nav-pills nav-main" id="mainMenu">
+                <li class="active"> <a> Home</a>
+                  <ul class="sub-menu">
+                    <li><a href="index.html">Home - Layer Slider</a></li>
+                    <li><a href="index2.html">Home - Simple Slider</a></li>
+                    <li><a href="index-full-width.html">Home - Full Width</a></li>
+                  </ul>
+                </li>
+                <li class="mega-menu-item mega-menu-fullwidth"> <a href="#">Mega Menu <i class="icon icon-angle-down"></i> </a>
+                  <ul class="sub-menu">
+                    <li>
+                      <div class="mega-menu-content">
+                        <div class="row">
+                          <div class="col-md-3">
+                            <ul>
+                              <li> <span class="mega-menu-sub-title">Blog Pages</span>
+                                <ul>
+                                    <li><a href="blog-single.html">Blog Single</a></li>
+                                    <li><a href="blog-categories-left-sidebar.html">Blog Left-Sidebar</a></li>
+                                    <li><a href="blog-categories-right-sidebar.html">Blog Right-Sidebar</a></li>
+                                    <li><a href="blog-categories.html">Blog Full Width</a></li>
+                                    <li><a href="blog-categories.html">Blog Categories</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-md-3">
+                            <ul>
+                              <li> <span class="mega-menu-sub-title">Other Pages</span>
+                                <ul>
+                                    <li><a href="shortcodes.html">Shortcodes</a></li>
+                                    <li><a href="404-error.html">404 Error Page</a></li>
+                                    <li><a href="archive.html">Archive Page</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="photo-gallery.html">Gallery Page</a></li>
+                                    <li><a href="photo-gallery-with-sidebar.html">Gallery Sidebar</a></li>
+                                    
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="widget">
+                              <div class="oracle_menu_image"> <img src="http://via.placeholder.com/210x192" alt="" class="img-responsive" />
+                                <h4>Nunc quis ornare quam. </h4>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="widget">
+                              <div class="oracle_menu_image"> <img src="http://via.placeholder.com/210x192" alt="" class="img-responsive" />
+                                <h4>Nunc quis ornare quam. </h4>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="widget">
+                              <div class="oracle_menu_image"> <img src="http://via.placeholder.com/210x192" alt="" class="img-responsive" />
+                                <h4>Nunc quis ornare quam. </h4>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li><a>Blog Pages <i class="icon icon-angle-down"></i> </a>
+                  <ul class="sub-menu">
+                    <li><a href="blog-single.html">Blog Single</a></li>
+                    <li><a href="blog-categories-left-sidebar.html">Blog Left-Sidebar</a></li>
+                    <li><a href="blog-categories-right-sidebar.html">Blog Right-Sidebar</a></li>
+                    <li><a href="blog-categories.html">Blog Full Width Categories</a></li>
+                  </ul>
+                </li>
+                <li><a href="photo-gallery.html">Portfolio</a></li>
+                <li> <a> Pages <i class="icon icon-angle-down"></i> </a>
+                  <ul class="sub-menu">
+                  	<li><a href="shortcodes.html">Shortcodes</a></li>
+                    <li><a href="404-error.html">404 Error Page</a></li>
+                    <li><a href="archive.html">Archive Page</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="photo-gallery.html">Gallery Page</a></li>
+                    <li><a href="photo-gallery-with-sidebar.html">Gallery Sidebar</a></li>
+                    <li><a href="post.html">Post Page</a></li>
+                    <li><a href="post-review.html">Post Review</a></li>
+                    <li><a href="post-no-comments.html">Post No Comments</a></li>
+                  </ul>
+                </li>
+                <li><a href="contact.html">Contact Us</a></li>
+                
+                
+              </ul>
+            </nav>
+            <div class="oracle_main_toggle"><a><i class="fa fa-bars"></i></a></div>
+          </div>
+        </div>
+        <!-- latest news start-->
+        <div class="oracle_latest_news">
+          <div class="latest_news_title">
+            <h3>Latest News</h3>
+          </div>
+          <div class="latest_news_block">
+            <ul>
+              <li style="border-color:#ffa200;"> <a href="category.html" class="break-category" style="color:#ffa200;"><i class="fa fa-cloud"></i></a>
+                <h4><a href="post.html">Nulla sapien nulla, facilisis id erat tempus.</a></h4>
+              </li>
+              <li style="border-color:#00d8ff;"> <a href="category.html" class="break-category" style="color:#00d8ff;"><i class="fa fa-microphone"></i></a>
+                <h4><a href="post.html">consectetur varius mauris. Duis venenatis tempor pellentesque.</a></h4>
+              </li>
+              <li style="border-color:#4caf4e;"> <a href="category.html" class="break-category" style="color:#4caf4e;"><i class="fa fa-gamepad"></i></a>
+                <h4><a href="post.html">quis commodo dui rhoncus sit amet.</a></h4>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- latest news start --> 
+        
+      </div>
+    </div>
+  </div>
+</header>
+<!--Header end-->
+
+<div class="oracle_container oracle_pull_down60">
+  <div class="container oracle_body">
+    <div class="row">
+      <div class="col-lg-11 col-md-11 col-sm-11">
+        <div class="left-content">
+          <div class="main-title">
+            <h2 class="oracle_heading">Theme Shortcodes</h2>
+            <span>Shortcodes made for this theme</span> </div>
+          <div class="article-content">
+            <p class="caps">Der at wisi mazim sadipscing, iisque bonorum fabellas in sed. Sint vocibus inimicus sed no, perpetua iudicabit rationibus ea est. An usu dicant quaestio hendrerit, ut cum odio laudem appellantur. At harum vocibus mel, unum propriae eam an, sed utinam docendi electram an. Eos regione voluptatum ne, ad mel facete aliquid constituto.</p>
+            <h1>Heading Style #1</h1>
+            <h2>Heading Style #2</h2>
+            <h3>Heading Style #3</h3>
+            <h4>Heading Style #4</h4>
+            <h5>Heading Style #5</h5>
+            <h6>Heading Style #6</h6>
+            <p>Lorem ipsum dolor sit amet, his ad homero quodsi. Definitiones vituperatoribus mei et. Simul regione ea quo, cu vel eius scaevola, per accusata quaerendum eu. Mei at diam accusam, vel tale sint error ex, labore moderatius eos ut.</p>
+            <h2>Image With Caption</h2>
+            <div class="wp-caption aligncenter"> <a href="images/photos/image-30.jpg" class="lightbox-photo"><img class="img-thumbnail img-responsive" alt="" src="http://placehold.it/790x480" /></a>
+              <p class="wp-caption-text">Ludus zril eu est, pro an elit ornatus facilisi, vis ex aeque accumsan recteque. Duis repudiare reprehendunt vim ex, nonumes intellegebat quo an.</p>
+            </div>
+            <p>Lorem ipsum dolor sit amet, his ad homero quodsi. Definitiones vituperatoribus mei et. Simul regione ea quo, cu vel eius scaevola, per accusata quaerendum eu. Mei at diam accusam, vel tale sint error ex, labore moderatius eos ut.</p>
+            <h2>Responsive Video Embeds (youtube &amp; Vimeo)</h2>
+            <div class="paragraph-row">
+              <div class="column6">
+                <div class="video-embed">
+                  <iframe width="100%" height="615" src="http://www.youtube.com/embed/B7pVjF8fLvA?rel=0" frameborder="0" allowfullscreen=""></iframe>
+                </div>
+              </div>
+              <div class="column6">
+                <div class="video-embed">
+                  <iframe src="http://player.vimeo.com/video/55425836?color=ff9933?color=ff9933" width="100%" height="461" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+                </div>
+              </div>
+            </div>
+            <p>Dictas temporibus eum an. Unum integre impedit eam ne. Cu per iuvaret feugait iudicabit. Dissentiunt voluptatibus ad pro.</p>
+            <h2>Gallery Preview</h2>
+            <p>Lorem ipsum dolor sit amet, his ad homero quodsi. Definitiones vituperatoribus mei et. Simul regione ea quo, cu vel eius scaevola, per accusata quaerendum eu. Mei at diam accusam, vel tale sint error ex, labore moderatius eos ut.</p>
+            <p>An pri amet oporteat, oblique <a href="http://orange-themes.com" class="ot-link" target="_blank">www.orange-themes.com</a> utroque persequeris id his. Ne hinc dissentias concludaturque vim. Eam modus persius at, in mei solum virtute. Quo nihil postea reprehendunt ad, at veniam utinam mea, quo maiorum philosophia te. Ei senserit imperdiet est, cu integre eripuit mea. Ei illud molestie efficiendi mel, dolor verear theophrastus mel an.</p>
+            <h2>Quote Styles</h2>
+            <blockquote>
+              <p>Qui ex dolores imperdiet sadipscing, nec nibh alienum definitiones te. Id movet malorum voluptatis primis alterum ut vel. Ut sea quas fastidii splendide, ne suas denique postulant. Minim vis te minim erant nonumes. Nec oporteat laboramus accommodare an, vix soluta placerat recteque mutat suscipit intellegebat et sed.</p>
+            </blockquote>
+            <p>Perfecto corrumpit no sed, cu facer postea has. In eam iusto dicam, cum ut sale vituperata. Eam dignissim torquatos ne, nobis dolorum sit ut sale vituperata</p>
+            <h2>Unordered &amp; Ordered Lists</h2>
+            <div class="paragraph-row">
+              <div class="col-lg-7">
+                <h4>Unordered List</h4>
+                <ul class="fa-ul">
+                  <li><i class="fa-li fa fa-star"></i>Mauris elit erat, laoreet ac posuere eget, blandit at nunc</li>
+                  <li><i class="fa-li fa fa-camera"></i>Vestibulum vitae justo nisi</li>
+                  <li><i class="fa-li fa fa-arrow-circle-o-up"></i>Donec ornare dapibus ante ut porttitor nam sit amet</li>
+                  <li><i class="fa-li fa fa-forward"></i>Aliquam vestibulum condimentum leo, vel porta sapien</li>
+                </ul>
+              </div>
+              <div class="col-lg-8">
+                <h4>Ordered List</h4>
+                <ol>
+                  <li>Regione saperet ad qui, mea ex summo, assentior efficiendi</li>
+                  <li>Quodsi eirmod postulant usu pri possit labores partiendo</li>
+                  <li>Ne insolens sadipscing platonem facilisis pertinacia duo</li>
+                  <li>At has purto malis suscipiantur, vero iusto ea qui</li>
+                </ol>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <p>Ex mucius adipiscing scripserit est, pri ut nihil maiorum invenire. Usu erat mazim altera in, tacimats regione indoctum, usu cu lorem appellantur, dissentiunt accommodare no vis. Pri prompta conclud.</p>
+            <h2>Buttons</h2>
+            <p> <a href="#" class="btn btn-default">Default Button</a> <a href="#" class="btn btn-default" style="background-color: #216cc1;">Blue Button w icon&nbsp;&nbsp;<i class="fa fa-music"></i></a> <a href="#" class="btn btn-default" style="background-color: #66a621;"><i class="fa fa-microphone"></i>&nbsp;&nbsp;Green button w icon</a> <a href="#" class="btn btn-default" style="background-color: #b63220;"><i class="fa fa-microphone-slash"></i>&nbsp;&nbsp;Red button w icon</a> </p>
+            <h2>Marker</h2>
+            <p>Lorem ipsum dolor <span class="label label-default">sit amet</span>, his ad homero quodsi. Definitiones vituperatoribus mei et. Simul regione ea quo, cu vel eius scaevola, per accusata quaerendum eu. Mei at <span class="label label-default" style="background-color: #429d4a;">diam accusam</span>, vel tale sint error ex, labore moderatius eos ut.</p>
+            <h2>Tabs Block</h2>
+            <div class="bs-example bs-example-tabs">
+              <ul id="myTab" class="nav nav-tabs" role="tablist">
+                <li class="active"><a href="#home" role="tab" data-toggle="tab">Home</a></li>
+                <li><a href="#profile" role="tab" data-toggle="tab">Profile</a></li>
+              </ul>
+              <div id="myTabContent" class="tab-content">
+                <div class="tab-pane fade in active" id="home">
+                  <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+                </div>
+                <div class="tab-pane fade" id="profile">
+                  <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+                </div>
+              </div>
+            </div>
+            <!-- /example -->
+            
+            <h2>Accordion</h2>
+            <div class="panel-group" id="accordion">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"> Collapsible Group Item #1 </a> </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in">
+                  <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"> Collapsible Group Item #2 </a> </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse">
+                  <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"> Collapsible Group Item #3 </a> </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse">
+                  <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </div>
+                </div>
+              </div>
+            </div>
+            <h2>Alert Messages</h2>
+            <div class="alert alert-success" role="alert">
+              <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <strong>Success!</strong> Better check yourself, you're not looking too good. </div>
+            <div class="alert alert-warning" role="alert">
+              <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <strong>Success!</strong> Better check yourself, you're not looking too good. </div>
+            <div class="alert alert-info" role="alert">
+              <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <strong>Success!</strong> Better check yourself, you're not looking too good. </div>
+            <div class="alert alert-danger" role="alert">
+              <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <strong>Success!</strong> Better check yourself, you're not looking too good. </div>
+            <p>Perfecto corrumpit no sed, cu facer postea has. In eam iusto dicam, cum ut sale vituperata. Eam dignissim torquatos ne, nobis dolorum sit ut sale vituperata</p>
+            <h2>Social Icons</h2>
+            <div class="social">
+              <ul>
+                <li class="facebook"><a href="">Like us <i class="fa fa-facebook"></i></a></li>
+                <li class="twitter"><a href="">Follow us <i class="fa fa-twitter"></i></a></li>
+                <li class="google-plus"><a href="">Circle us <i class="fa fa-google-plus"></i></a></li>
+                <li class="pinterest"><a href="">Pin us<i class="fa fa-pinterest"></i></a></li>
+                <li class="rss"><a href="">Feed us<i class="fa fa-rss"></i></a></li>
+                <li class="stumbleupon"><a href="">Stumble us<i class="fa fa-stumbleupon"></i></a></li>
+              </ul>
+            </div>
+            <p>Perfecto corrumpit no sed, cu facer postea has. In eam iusto dicam, cum ut sale vituperata. Eam dignissim torquatos ne, nobis dolorum sit ut sale vituperata</p>
+            <h2>Paragraph Grid</h2>
+            <div class="row">
+              <div class="col-lg-5">
+                <h4>Column 1/3</h4>
+                <p>Usu erat mazim altera in, tacimats regione indoctum, usu cu lorem appellantur, dissentiunt accommodare no vis. Pri prompta conclud.</p>
+              </div>
+              <div class="col-lg-5">
+                <h4>Column 1/3</h4>
+                <p>Usu erat mazim altera in, tacimats regione indoctum, usu cu lorem appellantur, dissentiunt accommodare no vis. Pri prompta conclud.</p>
+              </div>
+              <div class="col-lg-5">
+                <h4>Column 1/3</h4>
+                <p>Usu erat mazim altera in, tacimats regione indoctum, usu cu lorem appellantur, dissentiunt accommodare no vis. Pri prompta conclud.</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-lg-3">
+                <h4>Column 1/5</h4>
+                <p>Usu erat mazim altera in, tacimats regione indoctum, usu cu lorem appellantur, dissentiunt accommodare no vis. Pri prompta conclud.</p>
+              </div>
+              <div class="col-lg-3">
+                <h4>Column 1/5</h4>
+                <p>Usu erat mazim altera in, tacimats regione indoctum, usu cu lorem appellantur, dissentiunt accommodare no vis. Pri prompta conclud.</p>
+              </div>
+              <div class="col-lg-3">
+                <h4>Column 1/5</h4>
+                <p>Usu erat mazim altera in, tacimats regione indoctum, usu cu lorem appellantur, dissentiunt accommodare no vis. Pri prompta conclud.</p>
+              </div>
+              <div class="col-lg-3">
+                <h4>Column 1/5</h4>
+                <p>Usu erat mazim altera in, tacimats regione indoctum, usu cu lorem appellantur, dissentiunt accommodare no vis. Pri prompta conclud.</p>
+              </div>
+              <div class="col-lg-3">
+                <h4>Column 1/5</h4>
+                <p>Usu erat mazim altera in, tacimats regione indoctum, usu cu lorem appellantur, dissentiunt accommodare no vis. Pri prompta conclud.</p>
+              </div>
+            </div>
+            <hr>
+          </div>
+          
+          <!-- END .left-content --> 
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4 oracle_container_rightsidebar">
+        <div id="oracle_sidebar">
+          <div class="widget">
+            <div class="form-group">
+              <input type="text" class="form-control" id="search" placeholder="Search Here">
+            </div>
+          </div>
+          <div class="widget">
+            <h4>Categories</h4>
+            <ul>
+              <li><a href="">News <span>(15)</span></a></li>
+              <li><a href="">Technology <span>(15)</span></a></li>
+              <li><a href="">Entertainment <span>(20)</span></a></li>
+              <li><a href="">Sport News <span>(62)</span></a></li>
+              <li><a href="">Business <span>(32)</span></a></li>
+              <li><a href="">World <span>(54)</span></a></li>
+              <li><a href="">Marketing <span>(6)</span></a></li>
+            </ul>
+          </div>
+          <div class="widget">
+            <h4>Tag Cloud</h4>
+            <div class="tagcloud"> <a href="">Wordpress</a> <a href="">Magazine</a> <a href="">Art</a> <a href="">Business</a> <a href="">News</a> <a href="">Technology</a> <a href="">Sport</a> </div>
+          </div>
+          <div class="widget">
+            <h4>Latest News</h4>
+            <div class="latest_news"> <img src="http://via.placeholder.com/300x301" alt="" /> <a href="">
+              <h5><strong>Phasellus vestibulum urna ac urna ullamcorper, gravida bibendum.</strong></h5>
+              </a>
+              <p><span><i>September 4 2014,</i></span>8 Comments</p>
+              <p><span><i>by</i></span><strong>Mike Beth</strong></p>
+            </div>
+            <div class="latest_news"> <img src="http://via.placeholder.com/300x301" alt="" /> <a href="">
+              <h5><strong>Phasellus vestibulum urna ac urna ullamcorper, gravida bibendum.</strong></h5>
+              </a>
+              <p><span><i>September 4 2014,</i></span>8 Comments</p>
+              <p><span><i>by</i></span><strong>Mike Beth</strong></p>
+            </div>
+          </div>
+          <div class="widget">
+            <h4>Advertising</h4>
+            <div class="ads"> <img src="http://via.placeholder.com/300x250" class="img-responsive" alt="advertising" /> </div>
+          </div>
+          <div class="widget">
+            <h4>Sponsers</h4>
+            <div class="sponsers">
+              <div class="ads"> <img src="http://via.placeholder.com/125x125" class="img-responsive" alt="" /> </div>
+              <div class="ads"> <img src="http://via.placeholder.com/125x125" class="img-responsive" alt="" /> </div>
+            </div>
+          </div>
+          <div class="widget">
+            <h4>Featured Video</h4>
+            <div class="featured_video">
+              <iframe height="200" src="http://www.youtube.com/embed/ab0TSkLe-E0" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="widget">
+            <h4>Socialize</h4>
+            <div class="social">
+              <ul>
+                <li class="facebook"><a href="">Like us <i class="fa fa-facebook"></i></a></li>
+                <li class="twitter"><a href="">Follow us <i class="fa fa-twitter"></i></a></li>
+                <li class="google-plus"><a href="">Circle us <i class="fa fa-google-plus"></i></a></li>
+                <li class="pinterest"><a href="">Pin us<i class="fa fa-pinterest"></i></a></li>
+                <li class="rss"><a href="">Feed us<i class="fa fa-rss"></i></a></li>
+                <li class="stumbleupon"><a href="">Stumble us<i class="fa fa-stumbleupon"></i></a></li>
+              </ul>
+            </div>
+            <p>Nulla elementum magna eget finibus tempor. Duis eleifend odio sem, vel vulputate quam tudin ac. Nulla ac velit sem. </p>
+          </div>
+          <div class="widget">
+            <h4>Popular Posts</h4>
+            <ul class="popular_post">
+              <li> <img src="http://via.placeholder.com/70x70" alt="" /> <a href="">
+                <h4>Jhini Doe</h4>
+                </a>
+                <p>Proin eget justo bibendum, euismod lorem a.</p>
+                <a href=""><span><i class="fa fa-comment"></i> View in article</span></a> </li>
+              <li> <img src="http://via.placeholder.com/70x70" alt="" /> <a href="">
+                <h4>Jhini Doe</h4>
+                </a>
+                <p>Proin eget justo bibendum, euismod lorem a.</p>
+                <a href=""><span><i class="fa fa-comment"></i> View in article</span></a> </li>
+              <li> <img src="http://via.placeholder.com/70x70" alt="" /> <a href="">
+                <h4>Jhini Doe</h4>
+                </a>
+                <p>Proin eget justo bibendum, euismod lorem a.</p>
+                <a href=""><span><i class="fa fa-comment"></i> View in article</span></a> </li>
+            </ul>
+          </div>
+          <div class="widget">
+            <h4>Social Widget</h4>
+            <div class="comment">
+              <div class="social_widget_tab">
+                <ul>
+                  <li><a href="#facebook">facebook</a></li>
+                  <li><a href="#twitter">twitter</a></li>
+                </ul>
+              </div>
+              <div class="social_widget_content">
+                <div id="facebook">
+                  <div class="content_head">
+                    <select class="form-control pull-left">
+                      <option value="5">5 Comments</option>
+                      <option value="10">10 Comments</option>
+                      <option value="15">15 Comments</option>
+                    </select>
+                    <a href="" class="pull-right">Add a Comments</a> </div>
+                  <div class="content_body">
+                    <ul>
+                      <li>
+                        <div><img src="http://via.placeholder.com/58x58" alt="" /></div>
+                        <a href="">
+                        <h4>Vendi Jhon</h4>
+                        · Art Director at HsoftGroup</a>
+                        <p>Fusce vel nibh tortor. Fusce modo gravida neque, eget dictum.</p>
+                        <a href="">Reply</a> - <a href="">Like <i class="fa fa-thumbs-up"></i></a> 1 <span>17 Sep. at 07:30</span> </li>
+                      <li>
+                        <div><img src="http://via.placeholder.com/58x58" alt="" /></div>
+                        <a href="">
+                        <h4>Horlics Davidson</h4>
+                        · Team Leader at Hayabusa</a>
+                        <p>Fusce vel nibh tortor. Fusce modo gravida neque, eget dictum.</p>
+                        <a href="">Reply</a> - <a href="">Like <i class="fa fa-thumbs-up"></i></a> 1 <span>17 Sep. at 07:30</span> </li>
+                      <li>
+                        <div><img src="http://via.placeholder.com/58x58" alt="" /></div>
+                        <a href="">
+                        <h4>Helena Guardenia</h4>
+                        · Developer at Himanshusofttech</a>
+                        <p>Fusce vel nibh tortor. Fusce modo gravida neque, eget dictum.</p>
+                        <a href="">Reply</a> - <a href="">Like <i class="fa fa-thumbs-up"></i></a> 1 <span>17 Sep. at 07:30</span> </li>
+                      <li>
+                        <div><img src="http://via.placeholder.com/58x58" alt="" /></div>
+                        <a href="">
+                        <h4>Abbas Doe</h4>
+                        · Director at Francois LLC</a>
+                        <p>Fusce vel nibh tortor. Fusce modo gravida neque, eget dictum.</p>
+                        <a href="">Reply</a> - <a href="">Like <i class="fa fa-thumbs-up"></i></a> 1 <span>17 Sep. at 07:30</span> </li>
+                    </ul>
+                  </div>
+                </div>
+                <div id="twitter">
+                  <div class="content_head">
+                    <select class="form-control pull-left">
+                      <option value="5">5 tweets</option>
+                      <option value="10">10 tweets</option>
+                      <option value="15">15 tweets</option>
+                    </select>
+                    <a href="" class="pull-right">Add a tweet </a> </div>
+                  <div class="content_body">
+                    <ul>
+                      <li>
+                        <div><img src="http://via.placeholder.com/58x58" alt="" /></div>
+                        <a href="">
+                        <h4>Abbas Doe</h4>
+                        · Director at Francois LLC</a>
+                        <p>Fusce vel nibh tortor. Fusce modo gravida neque, eget dictum.</p>
+                        <a href="">Reply</a> - <a href="">Retweet <i class="fa fa-retweet"></i></a> 1 <span>17 Sep. at 07:30</span> </li>
+                      <li>
+                        <div><img src="http://via.placeholder.com/58x58" alt="" /></div>
+                        <a href="">
+                        <h4>Helena Guardenia</h4>
+                        · Developer at Himanshusofttech</a>
+                        <p>Fusce vel nibh tortor. Fusce modo gravida neque, eget dictum.</p>
+                        <a href="">Reply</a> - <a href="">Retweet <i class="fa fa-retweet"></i></a> 1 <span>17 Sep. at 07:30</span> </li>
+                      <li>
+                        <div><img src="http://via.placeholder.com/58x58" alt="" /></div>
+                        <a href="">
+                        <h4>Horlics Davidson</h4>
+                        · Team Leader at Hayabusa</a>
+                        <p>Fusce vel nibh tortor. Fusce modo gravida neque, eget dictum.</p>
+                        <a href="">Reply</a> - <a href="">Retweet <i class="fa fa-retweet"></i></a> 1 <span>17 Sep. at 07:30</span> </li>
+                      <li>
+                        <div><img src="http://via.placeholder.com/58x58" alt="" /></div>
+                        <a href="">
+                        <h4>Vendi Jhon</h4>
+                        · Art Director at HsoftGroup</a>
+                        <p>Fusce vel nibh tortor. Fusce modo gravida neque, eget dictum.</p>
+                        <a href="">Reply</a> - <a href="">Retweet <i class="fa fa-retweet"></i></a> 1 <span>17 Sep. at 07:30</span> </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="widget">
+            <h4>Recent Posts</h4>
+            <ul>
+              <li><a href="">Nulla elementum magna eget finibus</a></li>
+              <li><a href="">Duis eleifend odio sem, vel vulputate quam.</a></li>
+              <li><a href="">Nulla ac velit sem. Nunc volutpat ipsum Dolar.</a></li>
+              <li><a href="">Pellentesque ultrices eleifend turpis, non.</a></li>
+            </ul>
+          </div>
+          <div class="widget">
+            <h4>Text Widget</h4>
+            <div class="sponsers">
+              <p>Nulla elementum magna eget inibus tempor. Duis eleifend odio sem, vel vulputate quam tudin ac. Nulla ac velit sem. Te lorem libris iracundia eos. Ne am liber veritus, eos eu agam recteque, exerci reformidans sea no. Usu erat mazim altera in, tacimats regione indoctum, usu cu lorem appellantur, dissentiunt accommodare no vis. Pri prompta conclud.Nulla elementum magna eget inibus tempor. Duis eleifend odio sem, vel vulputate quam tudin ac. Nulla ac velit sem. Te lorem libris iracundia eos. </p>
+            </div>
+          </div>
+          <div class="widget">
+            <h4>Subscribe Newsletter</h4>
+            <p>Te lorem libris iracundia eos. Ne am liber veritus, eos eu agam recteque, exerci reformidans sea no.</p>
+            <div class="form-group">
+              <input type="email" class="form-control" id="subscribe_mail" placeholder="E-mail Address">
+            </div>
+            <a href="" class="btn btn-default btn-lg">Subscribe</a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="oracle_footer">
+  <div class="container">
+    <div class="row">
+      <div class="widget">
+        <h4>Latest News</h4>
+        <div class="latest_news"> <a href="">
+          <h5>Nulla facilisis ibuslis vel consectetur.</h5>
+          </a> <span><i class="fa fa-clock-o"></i> Aug 28</span><span><i class="fa fa-comments"></i> 20</span>
+          <p>Quisque nisl odio, egestas ut fficitur vitae, pellentesque id nisi. aecenas.</p>
+        </div>
+      </div>
+      <div class="widget">
+        <h4>links</h4>
+        <ul>
+          <li><a href="">Character Animation</a></li>
+          <li><a href="">Game Design</a></li>
+          <li><a href="">Materials</a></li>
+          <li><a href="">Modeling</a></li>
+          <li><a href="">Particles</a></li>
+        </ul>
+      </div>
+      <div class="widget">
+        <form class="navbar-form" role="search">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search Here" name="srch-term" id="srch-term">
+            <div class="input-group-btn">
+              <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+            </div>
+          </div>
+        </form>
+        <br>
+        <img src="images/logo.png" alt="footer logo" /> </div>
+      <div class="widget">
+        <h4>Popular Posts</h4>
+        <ul class="popular_post">
+          <li> <img src="http://via.placeholder.com/70x70" alt="" /> <a href="">
+            <h4>Jhini Doe</h4>
+            </a>
+            <p>Proin eget justo bibendum</p>
+          </li>
+          <li> <img src="http://via.placeholder.com/70x70" alt="" /> <a href="">
+            <h4>Jhini Doe</h4>
+            </a>
+            <p>Proin eget justo bibendum</p>
+          </li>
+        </ul>
+      </div>
+      <div class="widget">
+        <h4>Social</h4>
+        <div class="social">
+          <ul>
+            <li class="facebook"><a href="">Like us <i class="fa fa-facebook"></i></a></li>
+            <li class="twitter"><a href="">Follow us <i class="fa fa-twitter"></i></a></li>
+            <li class="google-plus"><a href="">Circle us <i class="fa fa-google-plus"></i></a></li>
+            <li class="pinterest"><a href="">Pin us<i class="fa fa-pinterest"></i></a></li>
+            <li class="rss"><a href="">Feed us<i class="fa fa-rss"></i></a></li>
+            <li class="stumbleupon"><a href="">Stumble us<i class="fa fa-stumbleupon"></i></a></li>
+            <li class="youtube"><a href="">like us<i class="fa fa-youtube"></i></a></li>
+            <li class="behance"><a href="">Stumble us<i class="fa fa-behance"></i></a></li>
+            <li class="twitter"><a href="">Stumble us<i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="oracle_copyright">
+  <div class="container">
+    <div class="row">
+      <p>© 2017 Copyright ORACLE theme. All Rights reserved.</p>
+    </div>
+  </div>
+</div>
+
+<!--main js file start--> 
+<script type="text/javascript" src="js/jquery.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/owl.carousel.js"></script> 
+<script type="text/javascript" src="js/smoothscroll.js"></script> 
+<script type="text/javascript" src="js/plugin/mediaelement/mediaelement-and-player.js"></script> 
+<script type="text/javascript" src="js/plugin/fancybox/jquery.fancybox.js"></script> 
+<script type="text/javascript" src="js/custom.js"></script> 
+
+<!--main js file end-->
+</body>
+</html>

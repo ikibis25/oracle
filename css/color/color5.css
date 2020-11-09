@@ -1,0 +1,189 @@
+::selection {
+	color: #FFF;
+	background: #0A96AB;
+}
+a:hover, a:focus{
+color: #0A96AB;
+}
+
+
+#style-switcher{
+background: #0A96AB;
+}
+#style-switcher .bottom a.settings{
+background: #0A96AB;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+color: #0A96AB;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+color: #0A96AB;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+color: #0A96AB;
+}
+.sub-menu{
+background: #0A96AB;
+}
+.sub-menu:after{
+border-bottom: 10px solid #0A96AB;
+}
+#oracle_header nav.mega-menu ul.nav-main li.mega-menu-item ul.sub-menu{
+background: #0A96AB !important;
+}
+#oracle_header nav.mega-menu .mega-menu-content > div > div:nth-child(1),
+#oracle_header nav.mega-menu .mega-menu-content > div > div:nth-child(2){
+	background: #0A96AB;
+}
+.widget .oracle_menu_image img{
+	border-color:#0A96AB;
+}
+#oracle_header nav ul.nav-main ul.sub-menu{
+background: #0A96AB;
+}
+#oracle_header nav ul.nav-main li.active a{
+color: #0A96AB;
+}
+#oracle_header nav ul.nav-main li a:hover{
+color: #0A96AB;
+}
+.oracle_latest_news .latest_news_title{
+background: #0A96AB;
+}
+.oracle_latest_news .latest_news_title:after{
+border-left: 10px solid #0A96AB;
+}
+.oracle_heading:after{
+background-color: #0A96AB;
+}
+.widget > h4:after{
+background-color: #0A96AB;
+}
+.oracle_news_wrapper > div > .oracle_news_title{
+color: #0A96AB;
+}
+ul.oracle_news_list > li:hover > p > a{
+color: #0A96AB;
+}
+.oracle_feature_wrapper > div:hover > h4{
+color: #0A96AB;
+}
+.oracle_feature_video_list ul li a.active p{
+color: #0A96AB;
+}
+.oracle_feature_video_list ul li:hover a p {
+color: #0A96AB;
+}
+.oracle_photo_gallery ul li:hover a h4{
+color: #0A96AB;
+}
+.widget .latest_news span i{
+color: #0A96AB;
+}
+.widget .popular_post li:hover a{
+color: #0A96AB;
+}
+.form-control:focus{
+border-color: #0A96AB;
+}
+.btn-responsive-nav{
+border: 1px solid #0A96AB;
+color: #0A96AB;
+}
+.btn-responsive-nav:hover, .btn-responsive-nav:active, .btn-responsive-nav:focus{
+border: 1px solid #0A96AB;
+color: #0A96AB;
+}
+.oracle_404 .big{
+color: #0A96AB;
+}
+.theme_color{
+color: #0A96AB !important;
+}
+.oracle_pagination ul li a:hover{
+border-top: 3px solid #0A96AB;
+}
+.oracle_popular_author > div:hover h4{
+color: #0A96AB;
+}
+.oracle_popular_author h4:after{
+background-color: #0A96AB;
+}
+.oracle_404 a:hover{
+background-color: #0A96AB;
+border-color: #0A96AB;
+}
+.oracle_blog_wrapper .oracle_blog:after{
+background-color: #0A96AB;
+}
+.label-default{
+background-color: #0A96AB;
+}
+.oracle_blog_codes i{
+color: #0A96AB;
+opacity: 0.5;
+}
+.tag-cloud ul li a:hover{
+background-color: #0A96AB;
+border-color: #0A96AB;
+}
+.oracle_post_category ul li a:after{
+background-color: #0A96AB;
+}
+.btn-default{
+background-color: #0A96AB;
+border-color: #0A96AB;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default{
+background-color: #0A96AB;
+border-color: #0A96AB;
+}
+.comment_reply{
+color: #0A96AB;
+}
+.oracle_single_portfolio_gallery #thumbnails .center .item{
+border-color: #0A96AB;
+}
+.oracle_comment_wrapper .no-comments i{
+color: #0A96AB;
+}
+.oracle_rating .rating-stars > span{
+background: url(../../images/icon/star_hover_color5.svg);
+}
+.oracle_star_rating i{
+background: url(../../images/icon/star_hover_color5.svg);
+}
+.oracle_pagetitle:after{
+background-color: #0A96AB;
+}
+.oracle_post_category ul li a:hover{
+	color:#0A96AB;
+	}
+.caps::first-letter{
+color: #0A96AB;	
+}	
+.tagcloud a:hover{
+background-color: #0A96AB;
+border-color: #0A96AB;
+}	
+.widget #calendar_wrap table tbody #today{
+	background: #0A96AB;
+	}
+.mejs-controls .mejs-time-rail .mejs-time-current {
+background: #0A96AB;
+}	
+.mejs-controls .mejs-time-rail .mejs-time-handle {
+background: #0A96AB;
+}	
+.oracle_portfolio_item > span:after{
+background-color: #0A96AB;
+}	
+.widget ul li a:hover{
+color: #0A96AB;
+}
+.oracle_verification p a:hover{
+	color:#0A96AB;
+}
+.oracle_blog a:hover{
+	color:#0A96AB;	
+	}

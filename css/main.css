@@ -1,0 +1,24 @@
+/*
+Copyright (c) 2017 xtremedesign
+------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:	Oracle - news and magazine HTML template
+Version:	1.0
+
+-------------------------------------------------------------------*/
+@import url("style.css");
+@import url("responsive.css");
+@import url("custom-fonts.css");
+@import url("bootstrap.css");
+@import url("font-awesome.css");
+@import url("animate.css");
+
+
+/*plgin css*/
+@import url("owl.carousel.css");
+@import url("../js/plugin/mediaelement/mediaelementplayer.css");
+@import url("../js/plugin/fancybox/jquery.fancybox.css");
+
+/* layer slider */
+@import url("../js/plugin/layerslider/css/layerslider.css");

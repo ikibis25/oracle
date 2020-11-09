@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<!--
+**********************************************************************************************************
+    Copyright (c) 2017 xtremedesign
+********************************************************************************************************** -->
+
+<!-- 
+Template Name: Oracle - news and magazine HTML template
+Version: 1.0
+-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<!-- Header Start -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- favicon links -->
+<link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+<link rel="icon" type="image/ico" href="favicon.ico" />
+<!-- main css -->
+<link rel="stylesheet" href="css/main.css" media="screen"/>
+
+<!-- color and background option -->
+<link rel="stylesheet" id="theme-color" type="text/css" href="#"/>
+<link rel="stylesheet" id="theme-pattern" type="text/css" href="#"/>
+<title>Oracle - news and magazine HTML template</title>
+</head>
+<!-- Header End -->
+
+<!-- Body Start -->
+<body>
+<!--Pre loader start--> 
+<div id="preloader">
+  <div id="status"><img src="images/preloader.gif" id="preloader_image" width="50" height="50" alt="loading image"/></div>
+</div>
+<!--pre loader end-->
+<!-- color picker start -->
+<div id="style-switcher" class="hs_color_set">
+  <div>
+    <h3>color options</h3>
+    <ul class="colors">
+      <li>
+        <p class='colorchange' id='color1'></p>
+      </li>
+      <li>
+        <p class='colorchange' id='color2'></p>
+      </li>
+      <li>
+        <p class='colorchange' id='color3'></p>
+      </li>
+      <li>
+        <p class='colorchange' id='color4'></p>
+      </li>
+      <li>
+        <p class='colorchange' id='color5'></p>
+      </li>
+      <li>
+        <p class='colorchange' id='style'></p>
+      </li>
+    </ul>
+    <h3>Background Pattern</h3>
+    <ul class="pattern">
+      <li>
+        <p class="pattern_change" id="pattern"></p>
+      </li>
+      <li>
+        <p class="pattern_change" id="pattern1"></p>
+      </li>
+      <li>
+        <p class="pattern_change" id="pattern2"></p>
+      </li>
+      <li>
+        <p class="pattern_change" id="pattern3"></p>
+      </li>
+      <li>
+        <p class="pattern_change" id="pattern4"></p>
+      </li>
+    </ul>
+    <h3>Theme Option</h3>
+    <select class="rock_themeoption" onchange="location = this.options[this.selectedIndex].value;">
+      <option>Select Option</option>
+      <option value="index-full-width.html">Full Width</option>
+      <option value="index.html">Boxed</option>
+    </select>
+  </div>
+  <div class="bottom"> <a href="" class="settings"><i class="fa fa-cogs"> Theme Option</i></a></div>
+</div>
+<!-- color picker end --> 
+<!--Header start-->
+<header id="oracle_header">
+  <div class="oracle_top_menu">
+    <div class="container">
+      <div class="row">
+        <nav class="navbar navbar-default" role="navigation"> 
+          
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          </div>
+          
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <span class="caret"></span></a>
+                <ul class="sub-menu" role="menu">
+                  <li><a href="index2.html">Home - Both Sidebar</a></li>
+                  <li><a href="index-full-width.html">Home - Full Width</a></li>
+                </ul>
+              </li>
+              <li><a href="post.html">Post</a></li>
+              <li><a href="shortcodes.html">Shortcodes</a></li>
+              <li><a href="photo-gallery.html">Photo Gallery</a></li>
+              <li><a href="404-error.html">Error 404</a></li>
+              <li><a href="archive.html">Archive</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Welcome, Jhon Deo </a></li>
+              <li class="oracle_avatar"><a href="author-page.html"><img src="images/profileimage.jpg" class="img-thumbnail" alt=""/></a></li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse --> 
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-15">
+        <h1 class="logo" title="Home"> <a href="index.html"> <img alt="Porto" data-sticky-width="82" data-sticky-height="40" src="images/logo.png"> </a> </h1>
+        <div class="oracle_weather">
+          <div>
+            <h4>Weather Report</h4>
+            <p class="location">Dewas, India</p>
+            <p class="temprature">+35°C, Partly Cloudy,</p>
+            <p>nearby</p>
+          </div>
+          <div> <span><img src="images/icon/weather-clouds.png" alt=""/></span> </div>
+        </div>
+        <button class="oracle_menu_toggle btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse"><i class="fa fa-bars"></i> </button>
+        <div class="oracle_menu navbar-collapse nav-main-collapse collapse">
+          <div class="text-center">
+            <nav class="nav-main mega-menu">
+              <ul class="nav nav-pills nav-main" id="mainMenu">
+                <li class="active"> <a> Home</a>
+                  <ul class="sub-menu">
+                    <li><a href="index.html">Home - Layer Slider</a></li>
+                    <li><a href="index2.html">Home - Simple Slider</a></li>
+                    <li><a href="index-full-width.html">Home - Full Width</a></li>
+                  </ul>
+                </li>
+                <li class="mega-menu-item mega-menu-fullwidth"> <a href="#">Mega Menu <i class="icon icon-angle-down"></i> </a>
+                  <ul class="sub-menu">
+                    <li>
+                      <div class="mega-menu-content">
+                        <div class="row">
+                          <div class="col-md-3">
+                            <ul>
+                              <li> <span class="mega-menu-sub-title">Blog Pages</span>
+                                <ul>
+                                    <li><a href="blog-single.html">Blog Single</a></li>
+                                    <li><a href="blog-categories-left-sidebar.html">Blog Left-Sidebar</a></li>
+                                    <li><a href="blog-categories-right-sidebar.html">Blog Right-Sidebar</a></li>
+                                    <li><a href="blog-categories.html">Blog Full Width</a></li>
+                                    <li><a href="blog-categories.html">Blog Categories</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-md-3">
+                            <ul>
+                              <li> <span class="mega-menu-sub-title">Other Pages</span>
+                                <ul>
+                                    <li><a href="shortcodes.html">Shortcodes</a></li>
+                                    <li><a href="404-error.html">404 Error Page</a></li>
+                                    <li><a href="archive.html">Archive Page</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="photo-gallery.html">Gallery Page</a></li>
+                                    <li><a href="photo-gallery-with-sidebar.html">Gallery Sidebar</a></li>
+                                    
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="widget">
+                              <div class="oracle_menu_image"> <img src="http://via.placeholder.com/210x192" alt="" class="img-responsive" />
+                                <h4>Nunc quis ornare quam. </h4>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="widget">
+                              <div class="oracle_menu_image"> <img src="http://via.placeholder.com/210x192" alt="" class="img-responsive" />
+                                <h4>Nunc quis ornare quam. </h4>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="widget">
+                              <div class="oracle_menu_image"> <img src="http://via.placeholder.com/210x192" alt="" class="img-responsive" />
+                                <h4>Nunc quis ornare quam. </h4>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li><a>Blog Pages <i class="icon icon-angle-down"></i> </a>
+                  <ul class="sub-menu">
+                    <li><a href="blog-single.html">Blog Single</a></li>
+                    <li><a href="blog-categories-left-sidebar.html">Blog Left-Sidebar</a></li>
+                    <li><a href="blog-categories-right-sidebar.html">Blog Right-Sidebar</a></li>
+                    <li><a href="blog-categories.html">Blog Full Width Categories</a></li>
+                  </ul>
+                </li>
+                <li><a href="photo-gallery.html">Portfolio</a></li>
+                <li> <a> Pages <i class="icon icon-angle-down"></i> </a>
+                  <ul class="sub-menu">
+                  	<li><a href="shortcodes.html">Shortcodes</a></li>
+                    <li><a href="404-error.html">404 Error Page</a></li>
+                    <li><a href="archive.html">Archive Page</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="photo-gallery.html">Gallery Page</a></li>
+                    <li><a href="photo-gallery-with-sidebar.html">Gallery Sidebar</a></li>
+                    <li><a href="post.html">Post Page</a></li>
+                    <li><a href="post-review.html">Post Review</a></li>
+                    <li><a href="post-no-comments.html">Post No Comments</a></li>
+                  </ul>
+                </li>
+                <li><a href="contact.html">Contact Us</a></li>
+                
+                
+              </ul>
+            </nav>
+            <div class="oracle_main_toggle"><a><i class="fa fa-bars"></i></a></div>
+          </div>
+        </div>
+        <!-- latest news start-->
+        <div class="oracle_latest_news">
+          <div class="latest_news_title">
+            <h3>Latest News</h3>
+          </div>
+          <div class="latest_news_block">
+            <ul>
+              <li style="border-color:#ffa200;"> <a href="category.html" class="break-category" style="color:#ffa200;"><i class="fa fa-cloud"></i></a>
+                <h4><a href="post.html">Nulla sapien nulla, facilisis id erat tempus.</a></h4>
+              </li>
+              <li style="border-color:#00d8ff;"> <a href="category.html" class="break-category" style="color:#00d8ff;"><i class="fa fa-microphone"></i></a>
+                <h4><a href="post.html">consectetur varius mauris. Duis venenatis tempor pellentesque.</a></h4>
+              </li>
+              <li style="border-color:#4caf4e;"> <a href="category.html" class="break-category" style="color:#4caf4e;"><i class="fa fa-gamepad"></i></a>
+                <h4><a href="post.html">quis commodo dui rhoncus sit amet.</a></h4>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- latest news start --> 
+        
+      </div>
+    </div>
+  </div>
+</header>
+<!--Header end-->
+
+<div class="oracle_container oracle_pull_down60">
+  <div class="container oracle_body">
+    <div class="row">
+      <div class="col-lg-11 col-md-11 col-sm-11">
+        <h4 class="oracle_pagetitle">Blog Categories Page</h4>
+        <div class="oracle_blog_wrapper">
+          <div class="oracle_blog oracle_margin_bottom20">
+            <div class="oracle_image"> <img src="http://via.placeholder.com/860x355" alt="blog" />
+              <div class="oracle_image_overlay"> <a class="oracle_image_link fancybox" data-fancybox-group="group1" href="images/dummy.jpg"><span class="fa fa-eye"></span></a> </div>
+            </div>
+            <a href="">
+            <h3>Duis odio diam, aliquam a erat vitae, egestas varius mauris. Phasellus ac odio at nisi hendrerit auctor.</h3>
+            </a> <i><span>September 4 2014,</span> <strong><a href="">8 Comments</a></strong></i> </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam congue malesuada ante, at porttitor magna ultrices sed. Proin imperdiet cursus lacus, non convallis leo. <span class="label label-default">Quisque elementum,</span> et tincidunt dolor pretium. Integer lobortis sagittis mattis. Cras lobortis consectetur tellus sed accumsan.</p>
+          <p>A liquam in ullamcorper quam, sed dapibus sem. Donec fermentum a felis et auctor. Vivamus nibh ante, tempus convallis tempus at, luctus vel risus. Suspendisse commodo nisi sed nibh suscipit volutpat nec id metus. Donec ultrices risus quis massa tincidunt, ac volutpat libero dapibus. <a href="" class="theme_color">Sed maximus</a> vel dolor eu fringilla.</p>
+          <div class="oracle_blog_codes"> <i class="fa fa-quote-left"></i>
+            <p>Duis odio diam, aliquam a erat vitae, egestas varius mauris. Phasellus ac odio at nisi hendrerit auctord onec.</p>
+          </div>
+          <p>liquam in ullamcorper quam, sed dapibus sem. Donec fermentum a felis et auctor. Vivamus nibh ante, tempus convallis tempus at, luctus vel risus. Suspendisse commodo nisi sed nibh suscipit volutpat nec id metus. Donec ultrices risus quis massa tincidunt, ac volutpat libero dapibus. <a href="" class="theme_color">Sed maximus</a> vel dolor eu fringilla.</p>
+          <p>Ut ac sem purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec vulputate mattis os. Suspendisse sodales porta enim. Ut scelerisque eros vel varius blandit. Fusce eu dolor ut augue euismod tempor vel vitae mauris. Aliquam is posuere dui, at eleifend enim. Morbi at arcu metus. Nulla ultrices lacinia eleifend.Praesent pulvinar, massa id viverra posuere, urna que ibus massa, quis feugiat ipsum nibh vitae arcu. Ut metus libero, elementum non pellentesque nec, elementum sit amet felis. Nam gravida urnaim, et rhoncus nunc malesuada eget. Proin quis tortor volutpat, iaculis libero sed, blandit odio. In bibendum purus non tempor porttitor. tesque convallis id est sit amet tempus. Vivamus condimentum rutrum nulla, et ullamcorper purus efficitur in.</p>
+          <div class="tag-cloud">
+            <ul>
+              <li><a href="">Wordpress</a></li>
+              <li><a href="">Magazine</a></li>
+              <li><a href="">News</a></li>
+              <li><a href="">Sport</a></li>
+              <li><a href="">Photography</a></li>
+              <li><a href="">2014</a></li>
+              <li><a href="">Art</a></li>
+              <li><a href="">Technology</a></li>
+              <li><a href="">Business</a></li>
+              <li><a href="">Pellentesque</a></li>
+              <li><a href="">Sodales</a></li>
+              <li><a href="">Massa</a></li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+          <div class="oracle_post_category">
+            <h4 class="oracle_heading">Categories</h4>
+            <ul>
+              <li><a href="">News <span>(15)</span></a></li>
+              <li><a href="">Technology <span>(15)</span></a></li>
+              <li><a href="">Entertainment <span>(20)</span></a></li>
+              <li><a href="">Sport News <span>(62)</span></a></li>
+              <li><a href="">Business <span>(32)</span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="oracle_rating">
+          <div class="review_overview">
+            <h4 class="oracle_heading">Review Overview <span>(53 Votes)</span></h4>
+            <ul>
+              <li>
+                <p>Graphics</p>
+                <div class="rating-stars"> <span style="width: 100%;" class=""><strong class="rating">5</strong> out of 5</span> </div>
+              </li>
+              <li>
+                <p> Gameplay</p>
+                <div class="rating-stars"> <span style="width: 90%;" class=""><strong class="rating">4.5</strong> out of 5</span> </div>
+              </li>
+              <li>
+                <p> Sound</p>
+                <div class="rating-stars"> <span style="width: 60%;" class=""><strong class="rating">3</strong> out of 5</span> </div>
+              </li>
+              <li>
+                <p> Storyline</p>
+                <div class="rating-stars"> <span style="width: 80%;" class=""><strong class="rating">4</strong> out of 5</span> </div>
+              </li>
+            </ul>
+            <div class="user_rating">
+              <p>User Rating :</p>
+              <div class="oracle_star"> <span class="oracle_star_rating">
+                <input type="radio" name="rating5" checked="" value="1">
+                <i></i>
+                <input type="radio" name="rating5" checked="" value="2">
+                <i></i>
+                <input type="radio" name="rating5" value="3">
+                <i></i>
+                <input type="radio" name="rating5" value="4">
+                <i></i>
+                <input type="radio" name="rating5" value="5">
+                <i></i> </span> </div>
+              <a href="" class="btn btn-default btn-sm pull-right">Submit Your Review</a>
+            </div>
+          </div>
+          <div class="over_all_rating">
+            <div class="rating-stars"> <span style="width: 100%;" class=""><strong class="rating">5</strong></span> </div>
+            <p>out of 5</p>
+            <div class="clearfix"></div>
+            <p>aliquam a erat vitae, egestas varius mauris. Phasellus ac odio at nisi hendrerit auctor.</p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="ads text-center oracle_pull_down20"> <img src="http://via.placeholder.com/728x90" class="img-responsive" alt=""/> </div>
+        <div class="oracle_about_author_single">
+          <h4 class="oracle_heading">About the Author: admin</h4>
+          <div class="oracle_author">
+            <div class="oracle_author_image"> <a href=""><img src="http://via.placeholder.com/61x61" alt="" /></a> </div>
+            <div class="oracle_author_text">
+              <p>Duis odio diam, aliquam a erat vitae, egestas varius mauris. Phasellus ac odio at nisi hendrerit auctor. Donec eleifend ante vitae tincidunt gravida. Fusce vel nibh tortor. Fusce commodo gravida neque, eget dictum libero aliquam sed. Etiam vel congue arcu, quis dapibus eros. Vivamus vehicula tempor nunc.</p>
+              <span><strong>Website : </strong><a href="" class="theme_color">www.theoracletheme.com</a></span>
+              <div class="social_small">
+                <ul>
+                  <li class="facebook"><a href=""><i class="fa fa-facebook"></i></a></li>
+                  <li class="twitter"><a href=""><i class="fa fa-twitter"></i></a></li>
+                  <li class="google-plus"><a href=""><i class="fa fa-google-plus"></i></a></li>
+                  <li class="pinterest"><a href=""><i class="fa fa-pinterest"></i></a></li>
+                  <li class="rss"><a href=""><i class="fa fa-rss"></i></a></li>
+                  <li class="stumbleupon"><a href=""><i class="fa fa-stumbleupon"></i></a></li>
+                  <li class="youtube"><a href=""><i class="fa fa-youtube"></i></a></li>
+                  <li class="behance"><a href=""><i class="fa fa-behance"></i></a></li>
+                  <li class="twitter"><a href=""><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="oracle_comment_wrapper">
+          <h4 class="oracle_heading">Comment</h4>
+          <div class="oracle_comment">
+            <div class="comment_image"> <img src="http://via.placeholder.com/61x61" alt="" /> </div>
+            <div class="comment_text">
+              <h4>Methu Doe <span>40 minutes ago</span></h4>
+              <p>Pellentesque. Maecenas et lacus dui. Vivamus ornare lorem ut nisl elementum, nec molestie nisl consequat. Nulla facilisi. Morbi pharetra turpis quis. :)</p>
+              <a href="" class="comment_reply">Reply <i class="fa fa-angle-double-right"></i></a> </div>
+          </div>
+          <div class="oracle_sub_comment">
+            <div class="comment_image"> <img src="http://via.placeholder.com/50x50" alt="" /> </div>
+            <div class="comment_text">
+              <h4>Michael Choyce <span>40 minutes ago</span></h4>
+              <p>Thank you very much...!</p>
+            </div>
+          </div>
+          <div class="oracle_sub_comment">
+            <div class="comment_image"> <img src="http://via.placeholder.com/50x50" alt="" /> </div>
+            <div class="comment_text">
+              <h4>Michael Choyce <span>40 minutes ago</span></h4>
+              <p>Sweet, now everything can be a little more awesome. :)</p>
+            </div>
+          </div>
+          <div class="oracle_comment">
+            <div class="comment_image"> <img src="http://via.placeholder.com/61x61" alt="" /> </div>
+            <div class="comment_text">
+              <h4>Etiam Nulla <span>40 minutes ago</span></h4>
+              <p>Cras nec dapibus ex. Nam eu lectus vitae erat fermentum convallis. Suspendisse tellus enim, ullamcorper quis lacinia vel, tempus id libero. Morbi lorem felis, feugiat eget nulla et, dictum eleifend diam. Duis odio diam, aliquam a erat vitae, egestas varius mauris. Phasellus ac odio at nisi hendrerit auctor. Donec eleifend ante vitae tincidunt gravida. Fusce vel nibh tortor. Fusce commodo gravida neque, eget dictum libero aliquam sed. Etiam vel congue arcu, quis dapibus eros. Vivamus vehicula tempor nunc.</p>
+              <a href="" class="comment_reply">Reply <i class="fa fa-angle-double-right"></i></a> </div>
+          </div>
+          <div class="oracle_comment">
+            <div class="comment_image"> <img src="http://via.placeholder.com/61x61" alt="" /> </div>
+            <div class="comment_text">
+              <h4>Placerat Magna <span>40 minutes ago</span></h4>
+              <p>Cras nec dapibus ex. Nam eu lectus vitae erat fermentum convallis. </p>
+              <a href="" class="comment_reply">Reply <i class="fa fa-angle-double-right"></i></a> </div>
+          </div>
+          <div class="oracle_leave_comment">
+            <h4 class="oracle_heading">Leave a Comment</h4>
+            <form role="form">
+              <div class="form-group col-lg-5">
+                <input type="text" class="form-control" id="comment_name" placeholder="Name">
+              </div>
+              <div class="form-group col-lg-5">
+                <input type="email" class="form-control" id="comment_email" placeholder="Email">
+              </div>
+              <div class="form-group col-lg-5">
+                <input type="url" class="form-control" id="comment_website" placeholder="Website">
+              </div>
+              <div class="form-group col-lg-15">
+                <textarea rows="8" class="form-control" id="comment_text" placeholder="Comment"></textarea>
+              </div>
+              <div class="col-lg-15">
+                <button type="submit" class="btn btn-default pull-right"><i class="fa fa-paper-plane"></i> SEND</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="oracle_recentpost_wrapper">
+          <h4 class="oracle_heading">Recent Post</h4>
+          <div> <a href="">
+            <h4>Eric Allam On Code School</h4>
+            </a>
+            <p><span><i>September 4 2014,</i></span><strong><a href="">8 Comments</a></strong></p>
+            <img src="http://via.placeholder.com/277x182" alt="featured image" />
+            <p>Quisque nisl odio, egestas ut efficitur vitae, pellentesque id nisi. Maecenas llamcorper placerat purus id vulputate.</p>
+            <p>Donec congue lorem metus, ut congueque auctor non. Etiam libero nibh, dignissim sed nisl non.</p>
+          </div>
+          <div> <a href="">
+            <h4>The Would Also Allow</h4>
+            </a>
+            <p><span><i>September 4 2014,</i></span><strong><a href="">8 Comments</a></strong></p>
+            <img src="http://via.placeholder.com/277x182" alt="featured image" />
+            <p>Quisque nisl odio, egestas ut efficitur vitae, pellentesque id nisi. Maecenas llamcorper placerat purus id vulputate.</p>
+            <p>Donec congue lorem metus, ut congueque auctor non. Etiam libero nibh, dignissim sed nisl non.</p>
+          </div>
+          <div> <a href="">
+            <h4>Such Digital Texts</h4>
+            </a>
+            <p><span><i>September 4 2014,</i></span><strong><a href="">8 Comments</a></strong></p>
+            <img src="http://via.placeholder.com/277x182" alt="featured image" />
+            <p>Quisque nisl odio, egestas ut efficitur vitae, pellentesque id nisi. Maecenas llamcorper placerat purus id vulputate.</p>
+            <p>Donec congue lorem metus, ut congueque auctor non. Etiam libero nibh, dignissim sed nisl non.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4 oracle_container_rightsidebar">
+        <div id="oracle_sidebar">
+          <div class="widget">
+            <div class="form-group">
+              <input type="text" class="form-control" id="search" placeholder="Search Here">
+            </div>
+          </div>
+          <div class="widget">
+            <h4>Categories</h4>
+            <ul>
+              <li><a href="">News <span>(15)</span></a></li>
+              <li><a href="">Technology <span>(15)</span></a></li>
+              <li><a href="">Entertainment <span>(20)</span></a></li>
+              <li><a href="">Sport News <span>(62)</span></a></li>
+              <li><a href="">Business <span>(32)</span></a></li>
+            </ul>
+          </div>
+          <div class="widget">
+            <h4>Categories</h4>
+            <ul>
+              <li><a href="">News <span>(15)</span></a></li>
+              <li><a href="">Technology <span>(15)</span></a></li>
+              <li><a href="">Entertainment <span>(20)</span></a></li>
+              <li><a href="">Sport News <span>(62)</span></a></li>
+              <li><a href="">Business <span>(32)</span></a></li>
+            </ul>
+          </div>
+          <div class="widget">
+            <h4>Tag Cloud</h4>
+            <div class="tagcloud"> <a href="">Wordpress</a> <a href="">Magazine</a> <a href="">Art</a> <a href="">Business</a> <a href="">News</a> <a href="">Technology</a> <a href="">Sport</a> </div>
+          </div>
+          <div class="widget">
+            <h4>Latest News</h4>
+            <div class="latest_news"> <img src="http://via.placeholder.com/300x301" alt="" /> <a href="">
+              <h5><strong>Phasellus vestibulum urna ac urna ullamcorper, gravida bibendum.</strong></h5>
+              </a>
+              <p><span><i>September 4 2014,</i></span>8 Comments</p>
+              <p><span><i>by</i></span><strong>Mike Beth</strong></p>
+            </div>
+            <div class="latest_news"> <img src="http://via.placeholder.com/300x301" alt="" /> <a href="">
+              <h5><strong>Phasellus vestibulum urna ac urna ullamcorper, gravida bibendum.</strong></h5>
+              </a>
+              <p><span><i>September 4 2014,</i></span>8 Comments</p>
+              <p><span><i>by</i></span><strong>Mike Beth</strong></p>
+            </div>
+          </div>
+          <div class="widget">
+            <h4>Advertising</h4>
+            <div class="ads"> <img src="http://via.placeholder.com/300x250" class="img-responsive" alt="advertising" /> </div>
+          </div>
+          <div class="widget">
+            <h4>Sponsers</h4>
+            <div class="sponsers">
+              <div class="ads"> <img src="http://via.placeholder.com/125x125" class="img-responsive" alt="" /> </div>
+              <div class="ads"> <img src="http://via.placeholder.com/125x125" class="img-responsive" alt="" /> </div>
+            </div>
+          </div>
+          <div class="widget">
+            <h4>Featured Video</h4>
+            <div class="featured_video">
+              <iframe height="200" src="http://www.youtube.com/embed/ab0TSkLe-E0" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="widget">
+            <h4>Socialize</h4>
+            <div class="social">
+              <ul>
+                <li class="facebook"><a href="">Like us <i class="fa fa-facebook"></i></a></li>
+                <li class="twitter"><a href="">Follow us <i class="fa fa-twitter"></i></a></li>
+                <li class="google-plus"><a href="">Circle us <i class="fa fa-google-plus"></i></a></li>
+                <li class="pinterest"><a href="">Pin us<i class="fa fa-pinterest"></i></a></li>
+                <li class="rss"><a href="">Feed us<i class="fa fa-rss"></i></a></li>
+                <li class="stumbleupon"><a href="">Stumble us<i class="fa fa-stumbleupon"></i></a></li>
+              </ul>
+            </div>
+            <p>Nulla elementum magna eget finibus tempor. Duis eleifend odio sem, vel vulputate quam tudin ac. Nulla ac velit sem. </p>
+          </div>
+          <div class="widget">
+            <h4>Popular Posts</h4>
+            <ul class="popular_post">
+              <li> <img src="http://via.placeholder.com/70x70" alt="" /> <a href="">
+                <h4>Jhini Doe</h4>
+                </a>
+                <p>Proin eget justo bibendum, euismod lorem a.</p>
+                <a href=""><span><i class="fa fa-comment"></i> View in article</span></a> </li>
+              <li> <img src="http://via.placeholder.com/70x70" alt="" /> <a href="">
+                <h4>Jhini Doe</h4>
+                </a>
+                <p>Proin eget justo bibendum, euismod lorem a.</p>
+                <a href=""><span><i class="fa fa-comment"></i> View in article</span></a> </li>
+              <li> <img src="http://via.placeholder.com/70x70" alt="" /> <a href="">
+                <h4>Jhini Doe</h4>
+                </a>
+                <p>Proin eget justo bibendum, euismod lorem a.</p>
+                <a href=""><span><i class="fa fa-comment"></i> View in article</span></a> </li>
+            </ul>
+          </div>
+          <div class="widget">
+            <h4>Recent Posts</h4>
+            <ul>
+              <li><a href="">Nulla elementum magna eget finibus</a></li>
+              <li><a href="">Duis eleifend odio sem, vel vulputate quam.</a></li>
+              <li><a href="">Nulla ac velit sem. Nunc volutpat ipsum Dolar.</a></li>
+              <li><a href="">Pellentesque ultrices eleifend turpis, non.</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="oracle_footer">
+  <div class="container">
+    <div class="row">
+      <div class="widget">
+        <h4>Latest News</h4>
+        <div class="latest_news"> <a href="">
+          <h5>Nulla facilisis ibuslis vel consectetur.</h5>
+          </a> <span><i class="fa fa-clock-o"></i> Aug 28</span><span><i class="fa fa-comments"></i> 20</span>
+          <p>Quisque nisl odio, egestas ut fficitur vitae, pellentesque id nisi. aecenas.</p>
+        </div>
+      </div>
+      <div class="widget">
+        <h4>links</h4>
+        <ul>
+          <li><a href="">Character Animation</a></li>
+          <li><a href="">Game Design</a></li>
+          <li><a href="">Materials</a></li>
+          <li><a href="">Modeling</a></li>
+          <li><a href="">Particles</a></li>
+        </ul>
+      </div>
+      <div class="widget">
+        <form class="navbar-form" role="search">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search Here" name="srch-term" id="srch-term">
+            <div class="input-group-btn">
+              <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+            </div>
+          </div>
+        </form>
+        <br>
+        <img src="images/logo.png" alt="footer logo" /> </div>
+      <div class="widget">
+        <h4>Popular Posts</h4>
+        <ul class="popular_post">
+          <li> <img src="http://via.placeholder.com/70x70" alt="" /> <a href="">
+            <h4>Jhini Doe</h4>
+            </a>
+            <p>Proin eget justo bibendum</p>
+          </li>
+          <li> <img src="http://via.placeholder.com/70x70" alt="" /> <a href="">
+            <h4>Jhini Doe</h4>
+            </a>
+            <p>Proin eget justo bibendum</p>
+          </li>
+        </ul>
+      </div>
+      <div class="widget">
+        <h4>Social</h4>
+        <div class="social">
+          <ul>
+            <li class="facebook"><a href="">Like us <i class="fa fa-facebook"></i></a></li>
+            <li class="twitter"><a href="">Follow us <i class="fa fa-twitter"></i></a></li>
+            <li class="google-plus"><a href="">Circle us <i class="fa fa-google-plus"></i></a></li>
+            <li class="pinterest"><a href="">Pin us<i class="fa fa-pinterest"></i></a></li>
+            <li class="rss"><a href="">Feed us<i class="fa fa-rss"></i></a></li>
+            <li class="stumbleupon"><a href="">Stumble us<i class="fa fa-stumbleupon"></i></a></li>
+            <li class="youtube"><a href="">like us<i class="fa fa-youtube"></i></a></li>
+            <li class="behance"><a href="">Stumble us<i class="fa fa-behance"></i></a></li>
+            <li class="twitter"><a href="">Stumble us<i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="oracle_copyright">
+  <div class="container">
+    <div class="row">
+      <p>© 2017 Copyright ORACLE theme. All Rights reserved.</p>
+    </div>
+  </div>
+</div>
+
+<!--main js file start--> 
+<script type="text/javascript" src="js/jquery.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/owl.carousel.js"></script> 
+<script type="text/javascript" src="js/smoothscroll.js"></script> 
+<script type="text/javascript" src="js/plugin/mediaelement/mediaelement-and-player.js"></script> 
+<script type="text/javascript" src="js/plugin/fancybox/jquery.fancybox.js"></script> 
+<script type="text/javascript" src="js/custom.js"></script> 
+
+<!--main js file end-->
+</body>
+</html>

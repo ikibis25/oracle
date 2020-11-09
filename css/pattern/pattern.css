@@ -1,0 +1,7 @@
+body{
+	background-image:url(../../images/patern/canvas-orange.png);
+	background-repeat:repeat;
+	}
+div[data-target] > div {
+	background: url(../../images/patern/canvas-orange.png) repeat;
+	}	

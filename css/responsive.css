@@ -1,0 +1,264 @@
+/* Large desktop */
+@media (min-width: 1200px) {
+...
+}
+ @media (min-width: 980px) and (max-width: 1199px) {
+#oracle_footer .widget {
+	width: 195px;
+}
+.oracle_author .oracle_author_image {
+	width: 11%;
+}
+.oracle_author .oracle_author_text {
+	width: 89%;
+}
+.oracle_comment > div.comment_image {
+	width: 11%;
+}
+.oracle_comment > div.comment_text {
+	width: 89%;
+}
+.oracle_sub_comment > div.comment_image {
+	width: 11%;
+}
+.oracle_sub_comment > div.comment_text {
+	width: 89%;
+}
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+#oracle_footer .widget {
+	width: 50%;
+}
+.oracle_author .oracle_author_image {
+	width: 15%;
+}
+.oracle_author .oracle_author_text {
+	width: 85%;
+}
+.oracle_comment > div.comment_image {
+	width: 15%;
+}
+.oracle_comment > div.comment_text {
+	width: 85%;
+}
+.oracle_sub_comment > div.comment_image {
+	width: 15%;
+}
+.oracle_sub_comment > div.comment_text {
+	width: 85%;
+}
+.oracle_auther_archive > div {
+	width: 50%;
+}
+.oracle_photo_gallery ul li{
+	width:50%;
+	}
+.oracle_feature_video_wrapper > .hs_resent_post > div{
+	width:100%;
+	}	
+.oracle_popular_news > ul > li {
+	width:100%;
+	}	
+	
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+html {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+.oracle_weather {
+	width: 100%;
+	float: left;
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+.oracle_weather > div {
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 0px 15px;
+}
+.oracle_weather > div p {
+	display: inline-block;
+	padding-right: 15px;
+}
+.oracle_weather div span {
+	margin: 0px;
+}
+#oracle_header .logo {
+	margin: 5px 0px 30px 0px;
+}
+.sub-menu:after {
+	display: none;
+}
+#oracle_header .nav-main {
+	text-align: left !important;
+}
+#oracle_header .nav-main ul.nav-main {
+	margin-right: 0px;
+}
+.oracle_latest_news {
+	position: relative;
+}
+.oracle_latest_news .oracle_latest_news_head {
+	width: 100%;
+}
+.oracle_latest_news ul li:nth-child(1) a {
+	padding-left: 10px;
+}
+.oracle_news_wrapper > div:first-child {
+	padding-left: 15px;
+}
+.widget {
+	padding: 0px 15px;
+}
+.oracle_feature_wrapper > div {
+	width: 100%;
+	padding: 0px 15px;
+}
+/*.oracle_popular_news_video > div {
+	width: 30.2%;
+	margin-left: 15px;
+	margin-right: 0px;
+}
+*/.oracle_photo_gallery ul {
+	padding: 0px 15px;
+}
+.oracle_photo_gallery ul li {
+	width:100%;
+	}
+.oracle_container {
+	margin-top: 0px;
+}
+/*.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img{
+	max-width: inherit !important;
+	width: auto !important; 
+	height: 300px !important;
+	}*/
+#oracle_footer .widget {
+	width: 50%;
+}
+.oracle_blog_wrapper {
+	padding: 0px 10px;
+}
+.oracle_pagetitle {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.oracle_recentpost_wrapper > div {
+	width: 100%;
+	padding: 10px;
+}
+.oracle_author {
+	padding: 10px;
+}
+.oracle_comment {
+	padding: 10px;
+}
+.oracle_rating {
+	padding: 10px;
+}
+.oracle_author .oracle_author_image {
+	width: auto;
+}
+.oracle_author .oracle_author_text {
+	width: auto;
+	float: none;
+}
+.oracle_comment > div.comment_image {
+	width: auto;
+}
+.oracle_comment > div.comment_text {
+	width: auto;
+	float: none;
+}
+.oracle_sub_comment > div.comment_image {
+	width: auto;
+}
+.oracle_sub_comment > div.comment_text {
+	width: auto;
+	float: none;
+}
+.oracle_author .social_small {
+	float: none;
+	margin-top: 15px;
+	text-align: center;
+}
+.oracle_author .social_small ul {
+	display: inline-block;
+}
+.oracle_rating .review_overview {
+	width: 100%;
+	padding-right: 0px;
+	margin-bottom: 15px;
+}
+.oracle_rating .over_all_rating {
+	width: 100%;
+}
+.oracle_gallery_wrapper {
+	padding: 0px 10px;
+}
+.oracle_404 {
+	padding: 0px 10px;
+}
+.oracle_404 img {
+	width: 100%;
+}
+.oracle_portfolio_single {
+	padding: 0px 10px;
+}
+.oracle_popular_news > ul > li {
+	width:100%;
+	padding:15px 0px;
+	}
+.oracle_photo_gallery ul li{
+	padding:0px;
+	}
+.oracle_feature_video_wrapper .oracle_heading{
+	margin-left: 5px;
+	margin-right: 5px;
+	}
+.oracle_photo_gallery .oracle_heading{
+	margin-left: 5px;
+	margin-right: 5px;
+	}	
+.oracle_feature_video_wrapper > .hs_resent_post{
+	padding:0px 5px;
+	}
+.oracle_popular_news{
+	padding-left: 15px;
+	padding-right: 15px;
+	}				
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+.oracle_news_wrapper > div {
+	width: 100%;
+	padding: 0px 15px;
+}
+.oracle_feature_video_wrapper > .hs_resent_post > div {
+	width: 100%;
+	padding: 0px 15px;
+}
+.oracle_popular_news > div {
+	width: 100%;
+	padding: 0px 15px;
+}
+.oracle_popular_news_video > div {
+	width: 100%;
+	padding: 0px 15px;
+	margin-left: 0px;
+}
+#oracle_footer .widget {
+	width: 100%;
+}
+.oracle_blog_codes {
+	padding: 20px;
+}
+}

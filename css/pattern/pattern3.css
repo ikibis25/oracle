@@ -1,0 +1,8 @@
+body{
+	background-image:url(../../images/patern/patterns05.png);
+	background-repeat:repeat;
+	}
+
+div[data-target] > div {
+	background: url(../../images/patern/patterns05.png) repeat;
+	}	
